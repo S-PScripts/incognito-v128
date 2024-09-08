@@ -3,6 +3,12 @@ v128+ "incognito". not completed
 
 # Incognito captive portal
 
+## Getting set up:
+1. Go to chrome://flags/#captive-portal-popup-window.
+2. Enable it.
+3. Restart.
+4. If the flag didn’t reset, you can continue. Else you cannot.
+
 ## Method A:
 ### THIS WILL ONLY WORK IF YOU HAVE A CAPTIVE PORTAL THAT CAN GET TO GOOGLE. I AM USING EE WIFI IN THE UK.
 1. Connect to EE Wifi.
