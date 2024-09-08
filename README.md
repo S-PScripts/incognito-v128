@@ -32,18 +32,19 @@ v128+ "incognito". not completed
 19. Click Accept Cookies on Google's search page and you have successfully completed this exploit.
 
 ## Method B:
-
-wip
-
-
-
 1. Go to Settings.
 2. Click Wifi in the Network section.
 3. Click your wifi.
 4. Click Network.
 5. Set Name servers to Custom name servers.
-6. Set the first box to 150.136.163.0.
-7. A sign in pop up should appear from your wifi. Click Sign in.
-8. Click webview button.
-9. Set Name servers back to what it was before. You will also need to disconnect and reconnect to your wifi.
-10. You have successfully completed this exploit.
+6. Set the boxes to 150.136.163.0.
+7. A sign-in pop-up should appear from your wifi. Click Sign in.
+8. Wait until the white screen goes. This may take a minute. A black background with red borders and yellow button should show.
+9. Click the blue "Webview link for tests" text.
+10. Set Name servers back to what it was before. You may also need to disconnect and reconnect to your wifi.
+11. Wait until Google shows up. This may take a minute.
+12. You have successfully completed this exploit.
+
+# Incognito Normal Tab
+
+WIP
