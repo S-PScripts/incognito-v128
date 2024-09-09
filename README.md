@@ -10,7 +10,21 @@ v128+ "incognito". not completed
 4. If the flag didn’t reset, you can continue. Else you cannot.
 
 ## Method A:
-### THIS WILL ONLY WORK IF YOU HAVE A CAPTIVE PORTAL THAT CAN GET TO GOOGLE. I AM USING EE WIFI IN THE UK.
+1. Go to Settings.
+2. Click Wifi in the Network section.
+3. Click your wifi.
+4. Click Network.
+5. Set Name servers to Custom name servers.
+6. Set the boxes to 150.136.163.0.
+7. A sign-in pop-up should appear from your wifi. Click Sign in.
+8. Wait until the white screen goes. This may take a minute. A black background with red borders and yellow button should show.
+9. Click the blue "Webview link for tests" text.
+10. Set Name servers back to what it was before. You may also need to disconnect and reconnect to your wifi.
+11. Wait until Google shows up. This may take a minute.
+12. You have successfully completed this exploit.
+    
+## Method B:
+### THIS WILL ONLY WORK IF YOU HAVE A CAPTIVE PORTAL WIFI THAT CAN GET TO GOOGLE. I AM USING EE WIFI IN THE UK.
 1. Connect to EE Wifi.
 2. A sign in pop up should appear from your Wifi. Click Sign in.
 3. CTRL+T is pointless since it now opens a normal tab. You will need to follow the following instructions (and yes, this is the same as the ee-exploit).
@@ -31,20 +45,28 @@ v128+ "incognito". not completed
 18. Click the small Google text.
 19. Click Accept Cookies on Google's search page and you have successfully completed this exploit.
 
-## Method B:
-1. Go to Settings.
-2. Click Wifi in the Network section.
-3. Click your wifi.
-4. Click Network.
-5. Set Name servers to Custom name servers.
-6. Set the boxes to 150.136.163.0.
-7. A sign-in pop-up should appear from your wifi. Click Sign in.
-8. Wait until the white screen goes. This may take a minute. A black background with red borders and yellow button should show.
-9. Click the blue "Webview link for tests" text.
-10. Set Name servers back to what it was before. You may also need to disconnect and reconnect to your wifi.
-11. Wait until Google shows up. This may take a minute.
-12. You have successfully completed this exploit.
+# Incognito 'normal' window
+1. On the captive portal window, search for openallurls.
+2. Go to openallurls.com
+3. Put any link.
+4. Click on Open all URLs, then click it again.
+5. This will open the link as a tab in a normal window which isn't incognito... but it will be unblocked anyway!
 
-# Incognito Normal Tab
+## Cool facts/Notes:
+- Although the tab isn't incognito, it will not show in history and like I said before it will be unblocked.
+- Reloading will not block it.
+- Going to other blocked pages on the same tab will not block.
+- Clicking on a blocked link that opens in a new tab on this tab will also unblock that blocked link.
 
-WIP
+## Getting rid of the captive portal
+Let's say you don't want to use the captive portal anymore to open each link. Here's a quick bypass:
+1. Open the link "openallurls.com" on openallurls.com on the captive portal.
+2. You will have an openallurls.com tab, and like I mentioned earlier, if you go to a blocked link that opens in a new tab it will also be unblocked.
+
+## More notes:
+- You may notice that if you go to a website you are signed in normally (e.g. outlook) in openallurls.com, you will be signed out. It seems like the 'normal' tab in the window is some sort of hybrid between incognito and not incognito.
+- Maybe I should call this exploit UNCOGNITO?
+
+## Credits
+- Credits in https://github.com/S-PScripts/incognito-v123
+- Credits to S-PScripts (me) for finding these new methods.
