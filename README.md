@@ -1,5 +1,5 @@
 # incognito-rises
-v128+ "incognito". not completed
+v128+ "incognito"
 
 # Incognito captive portal
 
