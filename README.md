@@ -45,6 +45,26 @@ v128 "incognito".
 18. Click the small Google text.
 19. Click Accept Cookies on Google's search page and you have successfully completed this exploit.
 
+## Method C:
+#### Requirements:
+-> Task manager and end process button unblocked.
+-> The ability to have flags.
+-> The ability to change your DNS settings
+
+1. Go to chrome://flags
+2. Find the temporarily unexpire flag V126 and enable it. Once you've done that, restart.
+3. Go back to chrome://flags and search for captive portal. Find the captive portal flag, enable it and restart again.
+4. Use any DNS to get a captive portal. You can use the 150.136.163.0 DNS.
+5. When you get to the captive portal page, go to task manager.
+6. Find incognito tab.
+7. Click it and click end process.
+8. Go back to your wifi settings and change your DNS back.
+9. Go back to the left open captive portal page which is dead because you killed it.
+10. Click the blue Learn more button.
+11. Go to privacy and policy.
+12. Scroll all the way down until you find the Google thing on the bottom left.
+13. Click that Google thing and you're done.
+
 # Incognito 'normal' window
 1. On the captive portal window, search for openallurls.
 2. Go to openallurls.com
@@ -70,3 +90,4 @@ Let's say you don't want to use the captive portal anymore to open each link. He
 ## Credits
 - Credits in https://github.com/S-PScripts/incognito-v123
 - Credits to S-PScripts (me) for finding these new methods.
+- Credits to brandonprather4930 (Brandon Prather) for finding Method 3.
