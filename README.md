@@ -1,6 +1,10 @@
 # incognito-v128
 v128 "incognito".
 
+# Requirements:
+-> Access to chrome://flags <br>
+-> Be on chromeOS v128
+
 # Incognito captive portal
 
 ## Getting set up:
@@ -47,11 +51,10 @@ v128 "incognito".
 
 ## Method C:
 #### Requirements:
--> Task manager and end process button unblocked.
--> The ability to have flags.
--> The ability to change your DNS settings
+-> Task manager and end process button unblocked. <br>
+-> The ability to change your DNS settings. <br>
 
-1. Go to chrome://flags
+1. Go to chrome://flags.
 2. Find the temporarily unexpire flag V126 and enable it. Once you've done that, restart.
 3. Go back to chrome://flags and search for captive portal. Find the captive portal flag, enable it and restart again.
 4. Use any DNS to get a captive portal. You can use the 150.136.163.0 DNS.
