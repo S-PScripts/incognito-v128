@@ -1,9 +1,12 @@
 # incognito-v128
-v128 "incognito".
+v128 "incognito". 
 
 # Requirements:
 -> Access to chrome://flags <br>
 -> Be on chromeOS v128
+
+# Notes before you begin
+- This is VERY buggy. I'm not sure how this exploit even works. It probably won't work for you, but you should give it a go anyway.
 
 # Incognito captive portal
 
@@ -88,7 +91,6 @@ Let's say you don't want to use the captive portal anymore to open each link. He
 
 ## More notes:
 - You may notice that if you go to a website you are signed in normally (e.g. outlook) in openallurls.com, you will be signed out. It seems like the 'normal' tab in the window is some sort of hybrid between incognito and not incognito.
-- Maybe I should call this exploit UNCOGNITO?
 
 ## Credits
 - Credits in https://github.com/S-PScripts/incognito-v123
