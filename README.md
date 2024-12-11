@@ -72,6 +72,7 @@ v128 "incognito".
 13. Click that Google thing and you're done.
 
 # Incognito 'normal' window
+## This probably won't work for you
 1. On the captive portal window, search for openallurls.
 2. Go to openallurls.com
 3. Put any link.
